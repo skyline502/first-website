@@ -1,14 +1,61 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>What is your favorite milk tea?</title>
-  </head>
-  <body>
-    <div id="navbar">
-      <a href="home.html">home</a>
-      <a href="form.html">your favorite</a>
-      <a href="shops.html">shops</a>
-      <a href="teas.html">my favorite teas</a>
-    </div>
-  </body>
+
+<head>
+  <title>What is your favorite milk tea?</title>
+</head>
+
+<body>
+  <div id="navbar">
+    <a href="home.html">home</a>
+    <a href="form.html">your favorite</a>
+    <a href="shops.html">shops</a>
+    <a href="teas.html">my favorite teas</a>
+  </div>
+
+  <div class="container">
+    <table>
+      <tr>
+        <td>
+          <div id="main">
+            <h1>WHAT IS YOUR FAVORITE?</h1>
+          </div>
+        </td>
+        <td>
+          <form method="get">
+            <fieldset>
+              <legend>I like</legend>
+              <div>
+                <label for="favorite-shop">What is your favorite shop?</label>
+                <input type="text" id="favorite-shop" name="shop">
+              </div>
+              <div>
+                <label for="favorite-tea">What is your favorite milk tea</label>
+                <input type="text" id="favorite-tea" name="tea">
+              </div>
+              <div>
+                <p>Do you like milk tea?</p>
+                <input type="checkbox" id="yes">
+                <label for="yes">yes</label>
+                <input type="checkbox" id="no">
+                <label for="no">no</label>
+              </div>
+              <div>
+                <label for="answer">Please explain your answer:</label>
+                <textarea id="answer"></textarea>
+              </div>
+              <div>
+                <button type="submit">Submit</button>
+              </div>
+            </fieldset>
+          </form>
+        </td>
+      </tr>
+    </table>
+  </div>
+  <div id="bottom-bar">
+
+  </div>
+</body>
+
 </html>
