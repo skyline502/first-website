@@ -25,6 +25,7 @@
   width: 300px;
   margin-left:0;
   padding:2em;
+  text-align: center;
 
 }
 
@@ -61,4 +62,11 @@ p {
 
 h2 {
   font-size: normal;
+}
+
+#milktea-pic {
+  height: 10em;
+  text-align: center;
+  border: 5px solid teal;
+  border-radius: 25px;
 }
