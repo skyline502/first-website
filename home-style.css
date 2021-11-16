@@ -4,12 +4,14 @@
   align-items: center;
   background-color: #36454F;
   height:75px;
+  width: auto;
 }
 
 #navbar a {
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: white;
   text-decoration: none;
+  width: auto;
 }
 
 #bottom-bar {
@@ -22,11 +24,13 @@
   border-top: 5px solid black;
   border-bottom: 5px solid black;
   border-right: 5px solid black;
-  width: 300px;
-  margin-left:0;
+  width: auto;
   padding:2em;
   text-align: center;
-
+  height: 200px;
+  margin-left: 0px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 h1 {
@@ -47,26 +51,40 @@ table {
   display: grid;
   table-layout: auto;
   border-width: 3px;
+  width: auto;
+  text-align: center;
 }
 
 #main {
   border: 10px solid teal;
   border-radius: 25px;
   margin:20px;
-  padding: 1em;
+  padding: 10px;
+  height: 480px;
+  width: 600px;
+  box-sizing: border-box;
 }
 
 p {
-  font-size: 1em;
+  font-size: 16px;
+  margin:0;
 }
 
 h2 {
+  margin-top: 5px;
+  margin-bottom: 5px;
   font-size: normal;
 }
 
 #milktea-pic {
-  height: 10em;
+  height: 480px;
   text-align: center;
   border: 5px solid teal;
   border-radius: 25px;
+}
+
+.container {
+  display:grid;
+  justify-content: center;
+  width: auto;
 }
