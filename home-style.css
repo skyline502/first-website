@@ -5,6 +5,7 @@
   background-color: #36454F;
   height:75px;
   width: auto;
+  margin-bottom: 0;
 }
 
 #navbar a {
@@ -17,13 +18,14 @@
 #bottom-bar {
   background-color: #36454F;
   height:75px;
+  margin-top: 0;
 }
 
 #milktea {
 
-  border-top: 5px solid black;
-  border-bottom: 5px solid black;
-  border-right: 5px solid black;
+  border-top: 10px solid black;
+  border-bottom: 10px solid black;
+  border-right: 10px solid black;
   width: auto;
   padding:2em;
   text-align: center;
@@ -79,12 +81,25 @@ h2 {
 #milktea-pic {
   height: 480px;
   text-align: center;
-  border: 5px solid teal;
-  border-radius: 25px;
 }
 
 .container {
   display:grid;
   justify-content: center;
   width: auto;
+}
+
+fieldset {
+  border: 10px solid #36454F;
+  border-radius: 25px;
+}
+
+legend {
+  text-align: left;
+  border: 1px solid black;
+  border-radius: 25px;
+  font-size: smaller;
+  font-weight: bold;
+  background-color: black;
+  color: white;
 }
